@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		13B22F8B81EFA03FFA0933FC /* Pods_Lab05.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7ABA38298B2B61876BD7606 /* Pods_Lab05.framework */; };
 		8E2E26631D32F46600B87E18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E2E26621D32F46600B87E18 /* GoogleService-Info.plist */; };
+		8E47F9E81D3C3DF2005C5752 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E47F9E71D3C3DF2005C5752 /* libz.tbd */; };
+		8E47F9EA1D3C3E0E005C5752 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E47F9E91D3C3E0E005C5752 /* libstdc++.tbd */; };
+		8E47F9F01D3C5578005C5752 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E47F9EC1D3C5578005C5752 /* Fabric.framework */; };
+		8E47F9F11D3C5578005C5752 /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E47F9ED1D3C5578005C5752 /* DigitsKit.framework */; };
+		8E47F9F21D3C5578005C5752 /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E47F9EE1D3C5578005C5752 /* DigitsKitResources.bundle */; };
+		8E47F9F31D3C5578005C5752 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E47F9EF1D3C5578005C5752 /* TwitterCore.framework */; };
 		8E4B02461D206A610050D50B /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B02441D206A610050D50B /* cellHome.m */; };
 		8E4B02471D206A610050D50B /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B02451D206A610050D50B /* cellHome.xib */; };
 		8E4B02671D2080B10050D50B /* Aguascalientes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E4B02491D2080B10050D50B /* Aguascalientes.jpg */; };
@@ -58,6 +64,12 @@
 
 /* Begin PBXFileReference section */
 		8E2E26621D32F46600B87E18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E47F9E71D3C3DF2005C5752 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8E47F9E91D3C3E0E005C5752 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		8E47F9EC1D3C5578005C5752 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		8E47F9ED1D3C5578005C5752 /* DigitsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitsKit.framework; sourceTree = "<group>"; };
+		8E47F9EE1D3C5578005C5752 /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = DigitsKit.framework/Versions/A/Resources/DigitsKitResources.bundle; sourceTree = "<group>"; };
+		8E47F9EF1D3C5578005C5752 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		8E4B02431D206A610050D50B /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
 		8E4B02441D206A610050D50B /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
 		8E4B02451D206A610050D50B /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
@@ -122,7 +134,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E47F9EA1D3C3E0E005C5752 /* libstdc++.tbd in Frameworks */,
+				8E47F9F31D3C5578005C5752 /* TwitterCore.framework in Frameworks */,
+				8E47F9E81D3C3DF2005C5752 /* libz.tbd in Frameworks */,
 				13B22F8B81EFA03FFA0933FC /* Pods_Lab05.framework in Frameworks */,
+				8E47F9F01D3C5578005C5752 /* Fabric.framework in Frameworks */,
+				8E47F9F11D3C5578005C5752 /* DigitsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +149,8 @@
 		18988907EDB2B62DB2DA1E43 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E47F9E91D3C3E0E005C5752 /* libstdc++.tbd */,
+				8E47F9E71D3C3DF2005C5752 /* libz.tbd */,
 				C7ABA38298B2B61876BD7606 /* Pods_Lab05.framework */,
 			);
 			name = Frameworks;
@@ -214,6 +233,10 @@
 		8ED9AA1E1D205F7900ADE34F = {
 			isa = PBXGroup;
 			children = (
+				8E47F9EC1D3C5578005C5752 /* Fabric.framework */,
+				8E47F9ED1D3C5578005C5752 /* DigitsKit.framework */,
+				8E47F9EE1D3C5578005C5752 /* DigitsKitResources.bundle */,
+				8E47F9EF1D3C5578005C5752 /* TwitterCore.framework */,
 				8ED9AA291D205F7900ADE34F /* Lab05 */,
 				8ED9AA281D205F7900ADE34F /* Products */,
 				E61A61E47F4C1A2A4B6F2051 /* Pods */,
@@ -274,10 +297,11 @@
 			buildPhases = (
 				E4FB6606E219E9A6EE1460AE /* [CP] Check Pods Manifest.lock */,
 				8ED9AA231D205F7900ADE34F /* Sources */,
-				8ED9AA241D205F7900ADE34F /* Frameworks */,
 				8ED9AA251D205F7900ADE34F /* Resources */,
+				8ED9AA241D205F7900ADE34F /* Frameworks */,
 				166467A39CE5EE7E4324DABE /* [CP] Embed Pods Frameworks */,
 				84EB043719E2AB17B53A1140 /* [CP] Copy Pods Resources */,
+				8E47F9EB1D3C54D2005C5752 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -299,7 +323,7 @@
 				TargetAttributes = {
 					8ED9AA261D205F7900ADE34F = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = PX3FJXVKE2;
+						DevelopmentTeam = QXF33N93KH;
 					};
 				};
 			};
@@ -340,6 +364,7 @@
 				8E4B02751D2080B10050D50B /* JalGuadalajara.jpg in Resources */,
 				8E4B027F1D2080B10050D50B /* VerAcajete.jpg in Resources */,
 				8E4B02831D2080B10050D50B /* VerCatemaco.jpg in Resources */,
+				8E47F9F21D3C5578005C5752 /* DigitsKitResources.bundle in Resources */,
 				8E4B026F1D2080B10050D50B /* ChiSaltoDeAgua.jpg in Resources */,
 				8E4B027A1D2080B10050D50B /* SLAquismon.jpg in Resources */,
 				8ED9AA3D1D205F7900ADE34F /* LaunchScreen.storyboard in Resources */,
@@ -398,6 +423,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lab05/Pods-Lab05-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		8E47F9EB1D3C54D2005C5752 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run ba9b4142ccb529976f63ff0f4dd439301bd9a81c 317599ea835459289d9642cf46719a3ac7bce3239e9ce47c88dbea9531d83d50";
 		};
 		E4FB6606E219E9A6EE1460AE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -544,9 +582,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Lab05/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Philbert.Lab05;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Philbert.Push.Lab07;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -559,9 +601,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Lab05/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Philbert.Lab05;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Philbert.Push.Lab07;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
